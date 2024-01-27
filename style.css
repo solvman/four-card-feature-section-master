@@ -57,6 +57,17 @@ body {
   color: var(--color-primary-700);
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
 .wrapper {
   width: max(100vw - (var(--padding) * 2), var(--min-width));
   max-width: 1110px;
